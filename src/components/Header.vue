@@ -1,7 +1,7 @@
 <template>
   <div >
       <!-- Header Headline and address-->
-    <header class="flex justify-between  items-center px-3 py-3">
+    <header class="flex justify-between  items-center px-3 py-3 z-10 bg-white" id="nurture-header ">
         <h1 class="block nurture-studio-title lg:text-6xl md:text-4xl">Nurture Wellness Studio</h1>
         <address class="block font-hairline text-right pr-6">
             <ul>
@@ -149,5 +149,9 @@ export default {
 
 .nurture-studio-title {
     font-family: 'Alice', serif;
+}
+
+#nurture-header {
+  position: absolute;
 }
 </style>
